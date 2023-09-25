@@ -1,0 +1,68 @@
+.background{
+    height: 100%;
+    width: 100%;
+    background-image: url(images/login\ \(2\).jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    position: absolute;
+    display: flex;
+ 
+}
+.box{
+    height: 500px;
+    width: 550px;
+    position: relative;
+    margin: 6% auto;
+    background: rgba(68, 33, 33, 0.281);
+    padding: 5px;
+}
+h2{
+    font-weight: normal;
+    font-size: 50px;
+    text-align: center;
+    
+}
+.input{
+    width: 100%;
+    background: transparent;
+    border:dashed black ;
+    margin: 6px 0;
+    height: 32px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: #fff;
+}
+label{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+button{
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color:#fff;
+    background: #1c8adb;
+    width : 250px;
+    border-radius : 20px;
+    height: 40px;
+}
+button:hover{
+    cursor: pointer;
+background:#dc3998;
+color:#000;
+
+}
+a {
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 8px;
+    border-radius: 30px;
+   background-color: rgb(214, 118, 150); 
+}

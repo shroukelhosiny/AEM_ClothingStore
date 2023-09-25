@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+   flex-direction: column;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    transition: background 0.3s ease;
+ }
+ .change-btn{
+    background-color: #000;
+    border: 0;
+    cursor:pointer;
+    color:#fff;
+    font-size: 18px;
+    padding:20px 50px;
+    font-family: inherit;
+ }
+ .color-text{
+    font-size: 14px;
+ 
+ }
+ .change-btn:focus{
+    outline: none;
+    background-color: #444;
+ }
+ .change-btn:active {
+    transform:scale(0.98)
+ }
